@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>After Store — Intros 3D</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="After Store - Intros 3D feitas no After Effects" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="top">
+    <div class="wrap top__row">
+      <div class="brand">
+        <div class="brand__mark">A</div>
+        <div class="brand__text">
+          <b>After Store</b>
+          <small>Intros 3D • After Effects</small>
+        </div>
+      </div>
+
+      <a class="btn btn--primary btn--sm"
+         href="https://wa.me/5521978827157"
+         target="_blank">WhatsApp</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <h1>Sua <span class="grad">Intro 3D</span> profissional</h1>
+      <p class="muted">
+        Escreva o template e a cor, escolha o valor e envie sua logo.
+        Depois do pagamento, entregamos sua intro.
+      </p>
+    </section>
+
+    <!-- FORMULÁRIO -->
+    <form id="introForm" class="card form"
+          action="https://formsubmit.co/davialexmoraisdacruz@gmail.com"
+          method="POST">
+
+      <!-- CONFIG FORMSUBMIT -->
+      <input type="hidden" name="_subject" value="Novo pedido — After Store" />
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_template" value="table" />
+      <input type="hidden" name="_next" value="https://daviawx.github.io/Site-Teste/" />
+
+      <div class="form__grid">
+
+        <div class="field">
+          <label>Seu nome *</label>
+          <input name="name" required placeholder="Ex: Davi" />
+        </div>
+
+        <div class="field">
+          <label>Cor desejada *</label>
+          <input name="color" required placeholder="Roxo, azul neon..." />
+        </div>
+
+        <div class="field full">
+          <label>Template *</label>
+          <input name="template" required placeholder="Template estilo gamer, 3D..." />
+        </div>
+
+        <div class="field full">
+          <label>Valor *</label>
+          <label><input type="radio" name="price" value="3" required> R$ 3</label>
+          <label><input type="radio" name="price" value="5"> R$ 5</label>
+          <label><input type="radio" name="price" value="8"> R$ 8</label>
+        </div>
+
+        <div class="field full">
+          <label>Link da logo *</label>
+          <input name="logo" required placeholder="https://..." />
+        </div>
+
+        <div class="field full">
+          <label>Observações</label>
+          <textarea name="comment" rows="3"></textarea>
+        </div>
+
+        <div class="field full">
+          <label>
+            <input type="checkbox" id="openWhats" checked />
+            Abrir WhatsApp com mensagem pronta
+          </label>
+        </div>
+
+      </div>
+
+      <button class="btn btn--primary" type="submit">
+        Enviar pedido
+      </button>
+    </form>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap">
+      <small class="muted">© 2026 After Store</small>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
